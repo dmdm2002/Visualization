@@ -1,0 +1,42 @@
+root: "Z:/2nd_paper/backup/Ablation/Networks/1st_Proposed_Method/ND/"
+
+# models
+model:
+  0: "CycleGAN"
+  1: "UVC_GAN"
+  2: "NestedUVC_NoSupervision"
+  3: "NestedUVC"
+  4: "NestedU_ReAttention"
+  5: "NestedUVC_DualAttention_Parallel"
+  6: "NestedUVC_DualAttention_Parallel_Fourier"
+
+
+# ckp
+ckp:
+  0:
+    1-fold: 192
+    2-fold: 178
+
+  1:
+    1-fold: 295
+    2-fold: 115
+
+  2:
+    1-fold: 280
+    2-fold: 273
+
+  3:
+    1-fold: 280
+    2-fold: 282
+
+  4:
+    1-fold: 281
+    2-fold: 250
+
+  5:
+    1-fold: 271
+    2-fold: 296
+
+  6:
+    1-fold: 297
+    2-fold: 261
